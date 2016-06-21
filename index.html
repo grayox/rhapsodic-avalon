@@ -16,7 +16,7 @@ https://github.com/firebase/polymerfire/blob/master/LICENSE
 
   <title>Notes</title>
 
-  <link rel="manifest" href="src/note-app-elements/manifest.json">
+  <link rel="manifest" href="src/elements/manifest.json">
 
   <!-- Older Chrome and other browsers -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -28,17 +28,17 @@ https://github.com/firebase/polymerfire/blob/master/LICENSE
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="#9C27B0">
   <meta name="apple-mobile-web-app-title" content="Notes">
-  <link rel="apple-touch-icon" href="src/note-app-elements/images/icon-square-3x.png">
+  <link rel="apple-touch-icon" href="src/elements/images/icon-square-3x.png">
 
   <!-- Windows -->
   <meta name="msapplication-TileColor" content="#9C27B0">
-  <meta name="msapplication-TileImage" content="src/note-app-elements/images/icon-inverted-3x.png">
+  <meta name="msapplication-TileImage" content="src/elements/images/icon-inverted-3x.png">
 
   <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-  <script src="src/web-animations-js/web-animations-next.min.js"></script>
+  <script src="src/animations/web-animations-next.min.js"></script>
   <link rel="import" href="bower_components/platinum-sw/platinum-sw-elements.html">
   <link rel="import" href="bower_components/polymerfire/firebase-app.html">
-  <link rel="import" href="src/note-app.html">
+  <link rel="import" href="src/app.html">
 
   <style>
     body {
@@ -61,7 +61,7 @@ https://github.com/firebase/polymerfire/blob/master/LICENSE
   </platinum-sw-register>
 
   <!-- Configure Firebase app: -->
-  <!---- >
+  <!--- ->
   <firebase-app
       name="notes"
       api-key="AIzaSyDTP-eiQezleFsV2WddFBAhF_WEzx_8v_g"
@@ -78,6 +78,6 @@ https://github.com/firebase/polymerfire/blob/master/LICENSE
   <!---->
 
   <!-- Instantiate the Notes app: -->
-  <note-app></note-app>
+  <my-app></my-app>
 </body>
 </html>
