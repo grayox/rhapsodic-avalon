@@ -1,0 +1,41 @@
+{
+
+	"data": {
+
+		"stem": "https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxx/exec",
+
+		"keys": [
+			"k" ,
+			"m"
+		],
+
+		"values": [
+			"xxxxxxxxxxxxxxxxxxxx" ,
+			"xxxxxxxxxxxxxxxxxxxx"
+		]
+
+	},
+
+	"fbID": {
+
+		"//"     : "// _setBlanks() method on view-main element defaults empty strings to .app for any property",
+
+		"app"    : "liberating-architect",
+
+		"//"     : "// ------- Typically, no properties beneath this line will need to change ------- ",
+
+		"//"     : "// Central firebase setup for receiving <firebase-auth> 'location' attribute",
+		"//"     : "// Deprecating this concept in favor of individualized (app-specific) auth",
+		"auth"   : "",
+		"//auth" : "torrid-heat-2303",
+
+		"//"     : "// Central data store for login and activity reporting",
+		"log"    : "",
+		"//log"  : "torrid-heat-2303",
+
+		"//"     : "Firebase security rules documentation:",
+		"//"     : "// https://firebase.google.com/docs/database/security/quickstart#configuring_rules"
+
+	}
+
+}
